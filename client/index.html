@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My 4 week Library</title>
 
-<head>
-  <meta charset="utf-8" />
-  <title>courses web-app</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app/actions.js"></script>
+    <script src="./app/view.js"></script>
+  </head>
 
-  <link rel="stylesheet" href="./style.css">
+  <body>
+    
+      <div class="row" id="root">
+        <div class="column" id="list">
+          <h2>List of books in the Library</h2>
+          <ol id="books">
+            <li>1. title, author, availability</li>
+            <li>2. title, author, availability</li>
+            <li>3. title, author, availability</li>
+            <li>4. title, author, availability</li>
+          </ol>
+        </div>
+        <div class="column" id="book">
+          <h2>Add new book into the Library</h2>
+          <form id="save-form">
+            <h4>Required Fields</h4>
+            <label>Author: </labe
+            ><input
+              id="author"
+              name="author"
+              placeholder="author"
+              type="text"
+            /> <br>
+            <label>Title: </label><input id="title" name="title" placeholder="title" type="text" /><br>
+            <label>Availability: </label><select name="avail" id="avail">
+              <option value="true">available</option>
+              <option value="false">not available</option></select>
+             <br>
+            <h4>Optional Fields</h5>
+            <label>Year: </label><input id="year" name="year" placeholder="year" type="number" min="1000"/><br>
+            <label>Pages: </label><input id="page" name="page" placeholder="pages" type="number" min="10"/><br>
+            <label>Kind: </label><input id="kind" name="kind" placeholder="kind" type="text" /><br>
+            <button id="save-button">save book</button>
+          </form>
+        </div>
+      </div>
+    
 
-</head>
-
-<body>
-  <div id='root'></div>
-
-  <script src='./app/init.js'></script>
-</body>
-
+    <script src="./app/init.js"></script>
+  </body>
 </html>

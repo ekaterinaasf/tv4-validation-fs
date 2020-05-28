@@ -1,0 +1,106 @@
+{
+  "nextId": 23,
+  "books": [
+    {
+      "id": 1,
+      "author": "Ekaterina",
+      "title": "How to learn JavaScript fast",
+      "available": false
+    },
+    {
+      "id": 2,
+      "author": "William Shakespeare",
+      "title": "Twelfth Night",
+      "year": 1601,
+      "pages": 220,
+      "kind": {
+        "genre": "Comedy",
+        "category": "Play"
+      },
+      "available": true
+    },
+    {
+      "id": 3,
+      "author": "Leonid Solovev",
+      "title": "Tale of Hodge Nasruddin",
+      "year": 1940,
+      "pages": 600,
+      "kind": {
+        "genre": "Mythology",
+        "category": "Prose"
+      },
+      "available": true
+    },
+    {
+      "id": 4,
+      "author": "Mustay Karim",
+      "title": "Pardon",
+      "year": 1985,
+      "pages": 550,
+      "kind": {
+        "genre": "Drama",
+        "category": "Fiction"
+      },
+      "available": true
+    },
+    {
+      "id": 5,
+      "author": "Douglas Adams",
+      "title": "hitchhiker's guide to the galaxy",
+      "year": 1978,
+      "pages": 423,
+      "kind": {
+        "genre": "Humor",
+        "category": "Prose"
+      },
+      "available": true
+    },
+    {
+      "id": 6,
+      "author": "Alexandre Pushkin",
+      "title": "Evgeny Onegin",
+      "year": 1821,
+      "pages": 348,
+      "kind": {
+        "genre": "Classic",
+        "category": "Poetry"
+      },
+      "available": false
+    },
+    {
+      "id": 7,
+      "author": "Jack London",
+      "title": "The Cruise of the Snark",
+      "year": 1911,
+      "pages": 256,
+      "kind": {
+        "genre": "Adventure",
+        "category": "Fiction"
+      },
+      "available": false
+    },
+    {
+      "title": "Test title",
+      "author": "Test Andy",
+      "available": false,
+      "id": 17
+    },
+    {
+      "author": "Andrey Ivanov",
+      "title": "My first book",
+      "available": true,
+      "id": 19
+    },
+    {
+      "author": "Elizabeth",
+      "title": "Test book",
+      "available": true,
+      "year": 2020,
+      "pages": 222222,
+      "kind": {
+        "genre": "Romantic"
+      },
+      "id": 21
+    }
+  ]
+}
